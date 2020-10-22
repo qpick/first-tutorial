@@ -14,9 +14,9 @@ docs/locale/
 node_modules/
 tests/coverage_html/
 tests/.coverage
-build/
+**/build/
 tests/report/
-_build/doctrees/**
+**/_build/doctrees/**
 
 venv/**
 .idea/**

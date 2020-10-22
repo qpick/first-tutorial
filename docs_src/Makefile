@@ -50,7 +50,7 @@ clean:
 	-rm -rf $(BUILDDIR)/*
 
 html:
-	$(SPHINXBUILD) -b djangohtml $(ALLSPHINXOPTS) docs
+	$(SPHINXBUILD) -b djangohtml $(ALLSPHINXOPTS) ../docs
 	@echo
 	@echo "Build finished. The HTML pages are in $(BUILDDIR)/html."
 
